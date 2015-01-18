@@ -73,7 +73,7 @@ module.exports = router;
 then you need to register the route in the app.js file by adding at the beginning of the file :
 
 ```JavaScript
-var techs = require(./routes/techs');
+var techs = require('./routes/techs');
 ```
 and at the definition of the routes : 
  
